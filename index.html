@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row game-card align-items-center">
+        <div class="col col-md-6 offset-md-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p class="m-0">Окно результатов генерации</p>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="card-title">Фамилия: <span id="surnameOutput" class="data">Иванов</span></h4>
+                            <h4>Имя: <span id="firstNameOutput" class="data">Иван</span></h4>
+                            <h4>Отчество: <span id="patroNameOutput" class="data">Иванович</span></h4>
+                            <p>
+                                <span id="genderOutput" class="data">Генерация пола</span><br>
+                                <h4>Дата рождения:</h4><span id="dayOfBirthdayOutput" class="data">день рождения</span>
+                                <span id="monthOfBirthdayOutput" class="data">месяц рождения</span>
+                                <span id="birthYearOutput" class="data">Генерация года рождения</span><br>
+                                <span id="professionOutput" class="data">Профессия</span>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button id="generateBut"> Сгенерировать  &#8203;данные</button> 
+                    <button id="defaultBut">Очистить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!---<main>
+    <div class="container">
+        <div class="initialPerson">
+            <div class="pKard" >
+                <img>
+            </div>
+            <div class="fio">
+                <h3>Карточка сгенерированых данных</h3>
+                <h3 class="card-title">Фамилия: <span id="surnameOutput">Иванов</span></h3> 
+                <h4>Имя: <span id="firstNameOutput">Иван</span></h4>
+                <h4>Отчество: <span id="firstNameOutput">Иванович</span></h4>    
+            </div>
+        </div>
+        <div class="DataOfPerson">
+            <p>
+                <span >Пол</span> <span id="genderOutput">М</span><br>
+                <span>Дата рождения</span><br>
+                <span id="birthYearOutput">1 марта</span><span id="">1970 г.</span><br>
+                <span >Профессия</span> <span id="">учитель</span>
+            </p>
+        </div>
+        <div>
+
+        </div>
+    </div>
+</main>---> 
+
+<script src="personGenerator.js"></script>
+<script src="init.js"></script>
+</body>
+</html>

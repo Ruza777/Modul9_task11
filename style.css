@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+
+
+.card-body {
+    background-color:lightsalmon;
+}
+
+.data {
+    font-style: italic;
+    font-size: larger;
+}
+h4 {
+    font-size:medium;
+}
+.container {
+    margin-top: 7%;
+}
+
+button {
+    display: inline-block;
+	width:max-content;
+	padding: 10px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #F18230;
+	border-radius: 25px;
+	height: 46px;
+	line-height: 0;
+	font-size: 14px;
+	font-weight: 500;
+	color:white;
+	background-color:darkslategrey;
+	position: relative;
+	overflow: hidden;
+	vertical-align: top;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+
+
